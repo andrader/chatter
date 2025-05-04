@@ -1,0 +1,26 @@
+[project]
+name = "chatter"
+version = "0.1.0"
+readme = "README.md"
+
+requires-python = ">=3.12"
+dependencies = [
+    "aisuite[groq]>=0.1.11",
+    "instructor>=1.7.9",
+    "openai>=1.76.2",
+    "openai-agents[litellm]>=0.0.14",
+    "pydantic>=2.11.4",
+    "pypdf>=5.4.0",
+    "python-dotenv>=1.1.0",
+    "rich>=13.9.4",
+    "streamlit>=1.45.0",
+    "streamlit-mermaid>=0.3.0",
+    "trio>=0.30.0",
+    "watchdog>=6.0.0",
+]
+
+
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
